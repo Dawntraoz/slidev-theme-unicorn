@@ -36,8 +36,9 @@ handle: 'dawntraoz'
 
 If you don't add this property it will be an empty slide expecting your content:
 
-| With properties | Without properties |
-| ![introDark](screenshots/dark-theme-center.png) | ![introLight](screenshots/dark-theme-center-without-header-footer.png) |
+With properties            | Without properties 
+:-------------------------:|:-------------------------:
+![introDark](screenshots/dark-theme-center.png) | ![introLight](screenshots/dark-theme-center-without-header-footer.png)
 
 ### Intro `intro`
 
@@ -50,8 +51,9 @@ introImage: 'https://img2.storyblok.com/312x312/filters:format(webp)/f/79165/400
 ---
 ```
 
-| Dark | Light |
-| ![introDark](screenshots/dark-theme-intro.png) | ![introLight](screenshots/light-theme-intro.png) |
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![introDark](screenshots/dark-theme-intro.png) | ![introLight](screenshots/light-theme-intro.png)
 
 ---
 
@@ -66,8 +68,9 @@ layout: cover
 ---
 ```
 
-| Dark | Light |
-| ![introDark](screenshots/dark-theme-cover.png) | ![introLight](screenshots/light-theme-cover.png) |
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![introDark](screenshots/dark-theme-cover.png) | ![introLight](screenshots/light-theme-cover.png)
 
 ---
 
@@ -84,8 +87,9 @@ imageHeight: '950'
 ---
 ```
 
-| Dark | Light |
-| ![introDark](screenshots/dark-theme-image-centered.png) | ![introLight](screenshots/light-theme-image-center.png) |
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![introDark](screenshots/dark-theme-image-centered.png) | ![introLight](screenshots/light-theme-image-center.png)
 
 ---
 
@@ -97,8 +101,9 @@ layout: center
 ---
 ```
 
-| Dark | Light |
-| ![introDark](screenshots/dark-theme-center.png) | ![introLight](screenshots/light-theme-center.png) |
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![introDark](screenshots/dark-theme-center.png) | ![introLight](screenshots/light-theme-center.png)
 
 ---
 
