@@ -1,0 +1,21 @@
+{
+  "name": "slidev-theme-unicorn",
+  "version": "1.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "unicorn",
+    "dawntraoz"
+  ],
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.13.10",
+    "@slidev/theme-default": "^0.7.4",
+    "playwright-chromium": "^1.11.1"
+  }
+}
