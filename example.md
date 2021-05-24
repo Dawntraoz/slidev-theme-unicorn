@@ -2,7 +2,7 @@
 theme: none
 colorSchema: 'dark'
 layout: intro
-logoHeader: 'https://www.dawntraoz.com/images/logo.svg'
+logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
 introImage: 'https://img2.storyblok.com/312x312/filters:format(webp)/f/79165/400x400/1082ff0d24/dawntraoz-alba-silvente.jpg'
@@ -19,7 +19,7 @@ Presentation slides for developers
 </div>
 
 ---
-logoHeader: 'https://www.dawntraoz.com/images/logo.svg'
+logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
 ---
@@ -40,7 +40,7 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 <br>
 
 ---
-logoHeader: 'https://www.dawntraoz.com/images/logo.svg'
+logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
 ---
@@ -59,7 +59,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | next slide |
 
 ---
-logoHeader: 'https://www.dawntraoz.com/images/logo.svg'
+logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
 layout: image-center
@@ -73,7 +73,7 @@ imageHeight: '950'
 Making use of `image-center` layout.
 
 ---
-logoHeader: 'https://www.dawntraoz.com/images/logo.svg'
+logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
 layout: cover
