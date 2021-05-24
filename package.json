@@ -1,15 +1,18 @@
 {
   "name": "slidev-theme-unicorn",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": "Alba Silvente<unicorn@dawntraoz.com>",
   "keywords": [
     "slidev-theme",
     "slidev",
     "unicorn",
     "dawntraoz"
   ],
+  "homepage": "https://unicorn-theme.dawntraoz.com/",
+  "description": "A Unicorn theme for Slidev",
   "scripts": {
     "dev": "slidev example.md --open",
-    "build": "slidev build example.md",
+    "build": "slidev build example.md && cp -r _redirects ./dist/_redirects",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
   },
