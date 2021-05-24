@@ -6,7 +6,7 @@ A Unicorn theme for [Slidev](https://github.com/slidevjs/slidev).
 
 This theme is based on [dawntraoz.com](https://www.dawntraoz.com/) website design.
 
-Live demo: 
+Live demo: https://unicorn-theme.dawntraoz.com/
 
 ## Install
 
