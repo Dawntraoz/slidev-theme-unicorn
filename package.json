@@ -1,15 +1,26 @@
 {
   "name": "slidev-theme-unicorn",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "author": "Alba Silvente<unicorn@dawntraoz.com>",
+  "description": "A Unicorn theme for Slidev",
   "keywords": [
     "slidev-theme",
     "slidev",
     "unicorn",
     "dawntraoz"
   ],
+  "license": "MIT",
+  "private": false,
   "homepage": "https://unicorn-theme.dawntraoz.com/",
-  "description": "A Unicorn theme for Slidev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dawntraoz/slidev-theme-unicorn.git"
+  },
+  "bugs": "https://github.com/Dawntraoz/slidev-theme-unicorn/issues",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all"
+  },
   "scripts": {
     "dev": "slidev example.md --open",
     "build": "slidev build example.md && cp -r _redirects ./dist/_redirects",
@@ -18,7 +29,9 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.13.10",
-    "@slidev/theme-default": "^0.7.4",
-    "playwright-chromium": "^1.11.1"
+    "@slidev/theme-default": "^0.7.4"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.11.0"
   }
 }
