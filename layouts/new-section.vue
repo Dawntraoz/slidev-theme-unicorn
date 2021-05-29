@@ -2,7 +2,7 @@
   <default class="new-section" :logoHeader="logoHeader">
     <div class="flex items-center">
       <figure class="w-1/2">
-        <img src="/section-illustration.svg" alt="new section" width="400" height="400" class="ml-auto" />
+        <img :src="sectionImage" alt="new section" width="400" height="400" class="ml-auto" />
       </figure>
       <div class="w-1/2 text-right pr-12">
         <slot />
@@ -16,6 +16,12 @@ import { defineProps, defineComponent } from 'vue'
 import Default from './default.vue'
 
 const components = defineComponent({ Default })
+const props = defineProps({
+  sectionImage: {
+    type: String,
+    default: '../public/section-illustration.svg'
+  },
+})
 </script>
 
 <style>

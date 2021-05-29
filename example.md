@@ -61,6 +61,7 @@ logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
 layout: new-section
+sectionImage: '/section-illustration.svg'
 ---
 
 # This is a new section
