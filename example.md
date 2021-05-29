@@ -26,8 +26,8 @@ handle: 'dawntraoz'
 layout: cover-logos
 logos: [
   'https://img2.storyblok.com/256x0/filters:format(webp)/f/86387/x/4cf6a70a8c/logo-white-text.svg',
-  'https://nuxtjs.org/logos/nuxt-emoji-white.png',
-  'https://vuecamp.de/img/storyblok.26add4a0.png'
+  '/nuxt-emoji-white.png',
+  '/storyblok.png'
 ]
 ---
 
