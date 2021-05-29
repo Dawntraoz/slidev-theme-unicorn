@@ -1,6 +1,6 @@
 ---
 theme: none
-colorSchema: 'dark'
+colorSchema: 'light'
 layout: intro
 logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
@@ -23,22 +23,48 @@ Presentation slides for developers
 logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
 handle: 'dawntraoz'
+layout: cover-logos
+logos: [
+  'https://img2.storyblok.com/256x0/filters:format(webp)/f/86387/x/4cf6a70a8c/logo-white-text.svg',
+  'https://nuxtjs.org/logos/nuxt-emoji-white.png',
+  'https://vuecamp.de/img/storyblok.26add4a0.png'
+]
+---
+
+Frontend Developer Consultant at **@passionpeopleNL**
+Blogger, speaker and open source lover
+
+Ambassador at **@nuxt_js** and **@storyblok**
+
+---
+logoHeader: '/logo.svg'
+website: 'dawntraoz.com'
+handle: 'dawntraoz'
+layout: table-contents
+gradientColors: ['#A21CAF', '#5B21B6']
 ---
 
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
   
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
+- 📝 **Text-based** - focus on the content with Markdown
+- 🎨 **Themable** - create your theme
+- 🧑‍💻 **Developer Friendly** - code highlighting, live coding
+- 🤹 **Interactive** - embedding Vue components
 - 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
+- 📤 **Portable** - export into PDF, PNGs, or even a host it
 - 🛠 **Hackable** - anything possible on a webpage
 
-<br>
-<br>
+---
+logoHeader: '/logo.svg'
+website: 'dawntraoz.com'
+handle: 'dawntraoz'
+layout: new-section
+---
+
+# This is a new section
+Some content to explain
 
 ---
 logoHeader: '/logo.svg'

@@ -40,9 +40,14 @@ With properties            | Without properties
 :-------------------------:|:-------------------------:
 ![introDark](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/dark-theme-center.png) | ![introLight](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/dark-theme-center-without-header-footer.png)
 
+---
+
 ### Intro `intro`
 
 Usage:
+
+- Add `intro` in the layout field.
+- Add your profile image in the `introImage` field.
 
 ```
 ---
@@ -57,8 +62,9 @@ Dark                       | Light
 
 ---
 
-
 ### Default `cover`
+
+Cover is the default layout when none is specified.
 
 Usage:
 
@@ -71,6 +77,69 @@ layout: cover
 Dark                       | Light
 :-------------------------:|:-------------------------:
 ![introDark](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/dark-theme-cover.png) | ![introLight](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/light-theme-cover.png)
+
+---
+
+### Presentation `cover-logos`
+
+Usage:
+
+- Add `cover-logos` in the layout field.
+- Add an Array of logo URLs in the `logos` field.
+
+```
+---
+layout: cover-logos
+logos: [
+  'https://img2.storyblok.com/588x0/filters::format(webp)/f/86387/x/21aa32ed18/logo-normal.svg',
+  'https://nuxtjs.org/logos/nuxt-emoji.png',
+]
+---
+```
+
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![introDark](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/dark-theme-cover-logos.png) | ![introLight](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/light-theme-cover-logos.png)
+
+---
+
+### Table of contents `table-contents`
+
+Usage:
+
+- Add `table-contents` in the layout field.
+- Add an Array of hexadecimal colours in the `gradientColors` field to fill the illustration.
+
+```
+---
+layout: table-contents
+gradientColors: ['#8EC5FC', '#E0C3FC']
+---
+```
+
+Dark (added gradient)      | Light (default gradient)
+:-------------------------:|:-------------------------:
+![introDark](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/dark-theme-table-content.png) | ![introLight](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/light-theme-table-content.png)
+
+---
+
+### New section slide `new-section`
+
+> Always in dark version
+
+Usage:
+
+- Add `new-section` in the layout field.
+
+```
+---
+layout: new-section
+---
+```
+
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![introDark](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/new-section.png) | ![introLight](https://raw.githubusercontent.com/Dawntraoz/slidev-theme-unicorn/master/screenshots/new-section.png)
 
 ---
 

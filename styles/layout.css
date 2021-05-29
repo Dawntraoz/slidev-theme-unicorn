@@ -47,6 +47,10 @@
     @apply mb-4 leading-6;
   }
 
+  strong {
+    @apply text-purple-800 dark:text-purple-100;
+  }
+
   h1 + p {
     @apply -mt-3 opacity-70;
   }

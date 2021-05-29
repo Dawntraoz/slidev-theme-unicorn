@@ -17,9 +17,6 @@ import Default from '../layouts/default.vue'
 
 const components = defineComponent({ Default })
 const props = defineProps({
-  logoHeader: {
-    type: String,
-  },
   introImage: {
     type: String,
   },
