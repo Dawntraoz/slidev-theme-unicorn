@@ -14,12 +14,13 @@
 <script setup lang="ts">
 import { defineProps, defineComponent } from 'vue'
 import Default from './default.vue'
+import SectionIllustration from '../public/section-illustration.svg'
 
 const components = defineComponent({ Default })
 const props = defineProps({
   sectionImage: {
     type: String,
-    default: '../public/section-illustration.svg'
+    default: SectionIllustration
   },
 })
 </script>

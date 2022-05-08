@@ -4,7 +4,7 @@
   font-weight: bold;
   font-display: swap;
   src: local('Gilroy Bold'),
-    url('/fonts/Gilroy-Bold.woff') format('woff');
+    url('../public/fonts/Gilroy-Bold.woff') format('woff');
 }
 
 :root {
