@@ -1,5 +1,5 @@
 <template>
-  <default class="new-section" :logoHeader="logoHeader">
+  <default class="new-section">
     <div class="flex items-center">
       <figure class="w-1/2">
         <img :src="imageSrc" alt="new section" width="400" height="400" class="ml-auto" />

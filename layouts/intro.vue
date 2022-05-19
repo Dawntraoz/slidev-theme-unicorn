@@ -1,5 +1,5 @@
 <template>
-  <default class="intro" :logoHeader="logoHeader">
+  <default class="intro">
     <div class="flex items-center">
       <figure class="w-1/2 px-12">
         <img :src="imageSrc" height="312" width="312"
