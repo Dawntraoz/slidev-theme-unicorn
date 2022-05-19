@@ -15,6 +15,11 @@
   resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.5.1.tgz#7eb6764878adb715daff20019e5a15fd63d93342"
   integrity sha512-8Afo0+xvYe1K8Wm4xHTymfTkpzy36aaqDvhXIayUwl+mecMG9Xzl3XjXa6swG6Bk8FBeQ646RyvmsYt6+2Be9g==
 
+"@antfu/utils@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.5.2.tgz#8c2d931ff927be0ebe740169874a3d4004ab414b"
+  integrity sha512-CQkeV+oJxUazwjlHD0/3ZD08QWKuGQkhnrKo3e6ly5pd48VUpXbb77q0xMU4+vc2CkJnDS02Eq/M9ugyX20XZA==
+
 "@babel/parser@^7.16.4":
   version "7.17.10"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.10.tgz#873b16db82a8909e0fbd7f115772f4b739f6ce78"
@@ -172,12 +177,50 @@
     vue-starport "^0.2.10"
     windicss "^3.5.1"
 
+"@slidev/client@^0.31.4":
+  version "0.31.4"
+  resolved "https://registry.yarnpkg.com/@slidev/client/-/client-0.31.4.tgz#85ab7ddaf1e76cba78dd300579a226e217098d64"
+  integrity sha512-LA3ahdphQKBSGnn2Mgy7R4cBQ0LNsjRsDkGOguTV2s1MJz0zx7flkHC0ngSKe6fmq7bzpotOhYkuW96Ww+9uew==
+  dependencies:
+    "@antfu/utils" "^0.5.2"
+    "@slidev/parser" "0.31.4"
+    "@slidev/types" "0.31.4"
+    "@vueuse/core" "^8.4.2"
+    "@vueuse/head" "^0.7.6"
+    "@vueuse/motion" "^2.0.0-beta.18"
+    codemirror "^5.65.3"
+    defu "^6.0.0"
+    drauu "^0.3.0"
+    file-saver "^2.0.5"
+    js-base64 "^3.7.2"
+    js-yaml "^4.1.0"
+    katex "^0.15.3"
+    mermaid "^9.1.1"
+    monaco-editor "^0.33.0"
+    nanoid "^3.3.4"
+    prettier "^2.6.2"
+    recordrtc "^5.6.2"
+    resolve "^1.22.0"
+    vite-plugin-windicss "^1.8.4"
+    vue "^3.2.33"
+    vue-router "^4.0.15"
+    vue-starport "^0.2.10"
+    windicss "^3.5.3"
+
 "@slidev/parser@0.31.2":
   version "0.31.2"
   resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.31.2.tgz#c6c2aee4d1cb11824dd31ddffa348d4944f9ed46"
   integrity sha512-NklmVD1dpUE1gqqV7SJ9DT+OeO4xL2iYREATo4TCvYrOWzAfwTHPFqFBbraqLK/m7JTwBOOWieRLj5JMIv07rA==
   dependencies:
     "@slidev/types" "0.31.2"
+    js-yaml "^4.1.0"
+
+"@slidev/parser@0.31.4":
+  version "0.31.4"
+  resolved "https://registry.yarnpkg.com/@slidev/parser/-/parser-0.31.4.tgz#fe667b8aff118f3ba68903417520fde255b4d445"
+  integrity sha512-SHdkZfTPOAlGtSnaI99zRTezqu4txisqN6gM0btbvllhZhyHkwfAkQ8bSWaQtPYbCkQXC3J2mS4DTDGO8lEOvg==
+  dependencies:
+    "@slidev/types" "0.31.4"
     js-yaml "^4.1.0"
 
 "@slidev/theme-default@^0.21.2":
@@ -194,6 +237,11 @@
   version "0.31.2"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.31.2.tgz#9c2c743f1f0a4b6e1436d33c0d706c03e4097506"
   integrity sha512-PUmq0QyCiH0YEkOGl8iik64VATKU5PoSknCN/wUb52sOXmG/uSlGHyxeMHlarNQVJbZh3ih1T8hDoI2gj3ZIOg==
+
+"@slidev/types@0.31.4":
+  version "0.31.4"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.31.4.tgz#01b16fea725a6ad06c14fb5a9c0378be2254b954"
+  integrity sha512-K4xKC+NiwNelU+W+9DBTwJfJ0WKQZkQglHg5RGilIKru+krzJ7iMtaz8afpK/SnvcS1lFmuoL+w1x2nOucePPg==
 
 "@slidev/types@^0.22.7":
   version "0.22.7"
@@ -1938,6 +1986,11 @@ khroma@^1.4.1:
   resolved "https://registry.yarnpkg.com/khroma/-/khroma-1.4.1.tgz#ad6a5b6a972befc5112ce5129887a1a83af2c003"
   integrity sha512-+GmxKvmiRuCcUYDgR7g5Ngo0JEDeOsGdNONdU2zsiBQaK4z19Y2NvXqfEDE0ZiIrg45GTZyAnPLVsLZZACYm3Q==
 
+khroma@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/khroma/-/khroma-2.0.0.tgz#7577de98aed9f36c7a474c4d453d94c0d6c6588b"
+  integrity sha512-2J8rDNlQWbtiNYThZRvmMv5yt44ZakX+Tz5ZIp/mN1pt4snn+m030Va5Z4v8xA0cQFDXBwO/8i42xL4QPsVk3g==
+
 kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
@@ -2048,6 +2101,21 @@ mermaid@^9.0.1:
     dompurify "2.3.6"
     graphlib "^2.1.8"
     khroma "^1.4.1"
+    moment-mini "^2.24.0"
+    stylis "^4.0.10"
+
+mermaid@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-9.1.1.tgz#5d3d330ca4adf7f3c8ca51095f8bb2f0fb1a93bb"
+  integrity sha512-2RVD+WkzZ4VDyO9gQvQAuQ/ux2gLigJtKDTlbwjYqOR/NwsVzTSfGm/kx648/qWJsg6Sv04tE9BWCO8s6a+pFA==
+  dependencies:
+    "@braintree/sanitize-url" "^6.0.0"
+    d3 "^7.0.0"
+    dagre "^0.8.5"
+    dagre-d3 "^0.6.4"
+    dompurify "2.3.6"
+    graphlib "^2.1.8"
+    khroma "^2.0.0"
     moment-mini "^2.24.0"
     stylis "^4.0.10"
 
@@ -2922,6 +2990,11 @@ windicss@^3.5.1:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.5.2.tgz#2b049bc1135a83f5b829974f72f7e51176e02721"
   integrity sha512-Vy06iCcKXjR9izEViwIcwdaZHouzNWmjqWmVt3lyfZVNm6hWz6ME6s+6pIwrHMbylbal9hW3M9LRbN9mzFhccQ==
+
+windicss@^3.5.3:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.5.4.tgz#e55b9e1803d63c2256ddb94e60af8f582489b402"
+  integrity sha512-x2Iu0a69dtNiKHMkR886lx0WKbZI5GqvXyvGBCJ2VA6rcjKYjnzCA/Ljd6hNQBfqlkSum8J+qAVcCfLzQFI4rQ==
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
