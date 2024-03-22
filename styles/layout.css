@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Gilroy Bold';
+  font-family: "Gilroy Bold";
   font-style: normal;
   font-weight: bold;
   font-display: swap;
-  src: local('Gilroy Bold'),
-    url('../public/fonts/Gilroy-Bold.woff') format('woff');
+  src: local("Gilroy Bold"),
+    url("../assets/fonts/Gilroy-Bold.woff") format("woff");
 }
 
 :root {
@@ -14,11 +14,17 @@
 .slidev-layout {
   @apply p-10 h-full flex flex-col;
 
-  h1, h2, h3, h4, p, div {
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  div {
     @apply select-none;
   }
 
-  pre, code {
+  pre,
+  code {
     @apply select-text;
   }
 
@@ -55,7 +61,9 @@
     @apply -mt-3 opacity-70;
   }
 
-  p + h2, ul + h2, table + h2 {
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 
@@ -95,11 +103,13 @@
     @apply border-current border-b border-dashed hover:(text-primary border-solid);
   }
 
-  td, th {
+  td,
+  th {
     @apply p-2 py-3;
   }
 
-  b, strong {
+  b,
+  strong {
     @apply font-600;
   }
 

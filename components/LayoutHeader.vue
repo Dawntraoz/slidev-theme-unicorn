@@ -5,13 +5,13 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, computed } from 'vue'
-import { resolveAssetUrl } from '../layoutHelper'
+import { computed } from "vue";
+import { resolveAssetUrl } from "../layoutHelper";
 
 const props = defineProps({
   logoHeader: {
     type: String,
   },
-})
-const logoSrc = computed(() => resolveAssetUrl(props.logoHeader))
+});
+const logoSrc = computed(() => resolveAssetUrl(props.logoHeader));
 </script>
