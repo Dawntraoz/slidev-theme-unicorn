@@ -67,6 +67,10 @@ sectionImage: 'https://images.unsplash.com/photo-1711091189179-53ec364d4bf3?q=80
 # This is a new section
 Some content to explain
 
+<!--
+Add some notes to your slides!
+-->
+
 ---
 logoHeader: '/logo.svg'
 website: 'dawntraoz.com'
