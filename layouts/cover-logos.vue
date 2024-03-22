@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 import { defineProps, defineComponent, computed } from 'vue'
-import { resolveAssetUrl } from '@slidev/client/layoutHelper'
+import { resolveAssetUrl } from '../layoutHelper'
 import Default from './default.vue'
 
 const components = defineComponent({ Default })

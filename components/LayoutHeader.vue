@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import { defineProps, computed } from 'vue'
-import { resolveAssetUrl } from '@slidev/client/layoutHelper'
+import { resolveAssetUrl } from '../layoutHelper'
 
 const props = defineProps({
   logoHeader: {
