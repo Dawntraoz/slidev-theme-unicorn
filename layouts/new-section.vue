@@ -2,7 +2,13 @@
   <default class="new-section">
     <div class="flex items-center">
       <figure class="w-1/2">
-        <img :src="imageSrc" alt="new section" width="400" height="400" class="ml-auto" />
+        <img
+          :src="imageSrc"
+          alt="new section"
+          width="400"
+          height="400"
+          class="ml-auto object-cover max-h-[400px]"
+        />
       </figure>
       <div class="w-1/2 text-right pr-12">
         <slot />
@@ -12,19 +18,17 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineComponent, computed } from 'vue'
-import { resolveAssetUrl } from '@slidev/client/layoutHelper'
-import Default from './default.vue'
-import SectionIllustration from '../public/section-illustration.svg'
+import { computed } from "vue";
+import { resolveAssetUrl } from "../layoutHelper";
+import Default from "./default.vue";
 
-const components = defineComponent({ Default })
 const props = defineProps({
   sectionImage: {
     type: String,
-    default: SectionIllustration
+    default: "../public/section-illustration.svg",
   },
-})
-const imageSrc = computed(() => resolveAssetUrl(props.sectionImage))
+});
+const imageSrc = computed(() => resolveAssetUrl(props.sectionImage));
 </script>
 
 <style>
