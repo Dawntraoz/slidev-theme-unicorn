@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { resolveAssetUrl } from "@slidev/client/layoutHelper";
+import { resolveAssetUrl } from "../layoutHelper";
 import Default from "./default.vue";
 
 const props = defineProps({
