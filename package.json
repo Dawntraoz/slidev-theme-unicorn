@@ -36,6 +36,6 @@
     "playwright-chromium": "^1.42.1"
   },
   "engines": {
-    "slidev": ">=v0.47.0"
+    "node": ">=18.0.0"
   }
 }
